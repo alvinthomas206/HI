@@ -148,7 +148,7 @@ function spawnClouds() {
 
 function spawnObstacles() {
   if(frameCount % 60 === 30) {
-    var obstacle = createSprite(600,windowWidth-200 ,10,40);
+    var obstacle = createSprite(600,windowWidth-500 ,10,40);
     //obstacle.debug = true;
     obstacle.velocityX = -(6 + 3*score/100);
     
